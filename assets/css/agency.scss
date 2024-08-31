@@ -5,25 +5,16 @@
 @import "base/variables.scss";
 @import "base/mixins.scss";
 
-// Custom Fonts
-{% if site.data.style.fonts %}
-  {% for font in site.data.style.fonts %}
-    @mixin {{font.for}}-font {
-      font-family: "{{ font.name }}", -apple-system, BlinkMacSystemFont, "Segoe UI",
-      Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
-  {% endfor %}
-{% endif %}
-
 // Custom colors
-$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
+$primary: {{ site.data.style.highlight | default: "#B5A269" }} !default;
+$shrec_blue: {{ site.data.style.baseblue | default: "#152741" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;
 
 // Custom Images
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
+$iss-image: "{{ site.data.style.iss-image }}";
 
 // Global CSS
 @import "base/page.scss";
@@ -35,9 +26,14 @@ $contact-image: "{{ site.data.style.contact-image }}";
 
 // Layout
 @import "layout/masthead.scss";
+@import "layout/iss.scss";
+@import "layout/patch.scss";
 @import "layout/services.scss";
+@import "layout/commandlog.scss";
 @import "layout/portfolio.scss";
 @import "layout/timeline.scss";
 @import "layout/team.scss";
+@import "layout/publications.scss";
 @import "layout/contact.scss";
+@import "layout/clients.scss";
 @import "layout/footer.scss";

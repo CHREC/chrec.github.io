@@ -21,7 +21,7 @@ email      : michael.cannizzaro@nsf-shrec.org #this is also the email contact fo
 description: "VANTAGE is a proposed International Space Station research payload being developed by the NSF Center for Space, High-performance, and Resilient Computing (SHREC)"
 author     : NSF SHREC
 logo:     #optional, defaults to site title
-  path: assets\img\caspr_logo.svg
+  path: assets\img\vantage_logo.svg
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml

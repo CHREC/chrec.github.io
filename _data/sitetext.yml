@@ -18,9 +18,10 @@ en: &DEFAULT_EN
 
   about:
     title: "About VANTAGE"
-    body: "Visual And Neuromorphic Tracking And Geosensing Experiment (VANTAGE) is a next-generation payload proposed for flight to the International Space Station on the Space Test Program - Houston 12 (STP-H12) pallet.
-          VANTAGE is currently in-development and will be designed, built, and operated by the students and faculty of the NSF Center for Space, High-performance, and Resilient Computing (SHREC) at the University of Pittsburgh.
-          Learn more about this exciting research payload below!"
+    body: "Visual And Neuromorphic Tracking And Geosensing Experiment (VANTAGE) is a next-generation 
+          payload proposed for flight to the International Space Station on the Space Test Program - Houston 12 (STP-H12) pallet.
+          VANTAGE is currently in-development and will be designed, built, and operated by the students and faculty of the 
+          NSF Center for Space, High-performance, and Resilient Computing (SHREC) at the University of Pittsburgh. Learn more about this exciting research payload below!"
     section: about
     img-max-height: 100px
     list:

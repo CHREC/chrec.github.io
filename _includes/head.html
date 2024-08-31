@@ -22,28 +22,38 @@
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+  <!-- favicon files -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
   <!-- Bootstrap core CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Custom fonts for this template -->
   <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
-  {% if site.data.style.fonts_urls %}
-    {% for font_url in site.data.style.fonts_urls %}
-      <link href="{{font_url}}" rel="stylesheet" type="text/css">
-    {% endfor %}
-  {% else %}
-    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  {% endif %}
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
   <!-- Custom styles for this theme -->
   <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
   <link href="assets/css/agency.css" rel="stylesheet" />
 
+  <!-- Open Graph settings for social media sharing -->
+  <meta property="og:title" content="CASPR - NSF SHREC" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://caspr.space" />
+  <meta property="og:image" content="https://caspr.space/assets/img/caspr_social_banner.png" />
+  <meta property="og:description" content="One of the most advanced space systems ever developed by a university." />
+
+
   <!-- Page container change top padding when nav shrinks -->
-  {% if page.layout == "page" %}
   <style>
     #pagecontainer {
       padding-top: 150px;
@@ -54,5 +64,4 @@
       }
     }
   </style>
-  {% endif %}
 </head>

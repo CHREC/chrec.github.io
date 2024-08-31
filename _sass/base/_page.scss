@@ -1,5 +1,6 @@
 // Global styling for this template
 body {
+  background-color: $gray-900;
   overflow-x: hidden;
   @include body-font;
 }
@@ -19,6 +20,10 @@ a {
   color: $primary !important;
 }
 
+.text-muted {
+  color: $gray-400 !important;
+}
+
 h1,
 h2,
 h3,
@@ -26,11 +31,14 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  color: $gray-100;
   @include heading-font;
 }
 
 .page-section {
   padding: 100px 0;
+  background-color: $gray-900;
+  color: $gray-200;
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;

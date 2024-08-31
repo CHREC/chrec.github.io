@@ -8,11 +8,12 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: $primary;
+    background-color: $gray-900;
     @include heading-font;
   }
   .navbar-brand {
     color: $primary;
+    max-width: 60%;
     @include script-font;
     &.active,
     &:active,
@@ -20,6 +21,9 @@
     &:hover {
       color: darken($primary, 10%);
     }
+  }
+  .navbar-brand-img {
+    max-width: 100%;
   }
   .navbar-nav {
     .nav-item {
@@ -46,7 +50,7 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: $gray-900;
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;

@@ -19,8 +19,8 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Partners"
       section: services
-#    - title: "Contact"
-#      section: contact
+    - title: "Contact"
+      section: contact
 en-US:
   <<: *DEFAULT_EN
 en-CA:

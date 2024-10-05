@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: PolarFire SoC SoM
+  title: PolarFire SoC Module
   subtitle: Commercial FPGA SoC Module
   thumbnail: assets/img/portfolio/rchd-pf_thumb.png
 
 #what displays when the item is clicked:
-title: Conclusive Engineering PolarFire SoC SoM (RCHD-PF)
-subtitle: RISC-V FPGA SoC 
+title: PolarFire SoC Module
+subtitle: Conclusive Engineering RCHD-PF SoM 
 image: assets/img/portfolio/rchd-pf.png #main image, can be a link or a file in assets/img/portfolio
 alt: image alt text
 

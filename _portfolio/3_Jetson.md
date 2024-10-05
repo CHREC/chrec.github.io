@@ -1,7 +1,7 @@
 ---
 caption:
   title: NVIDIA Jetson Module
-  subtitle: High-Performance Parallel Computation
+  subtitle: Massively-Parallel Computation
   thumbnail: assets/img/portfolio/nvidia_thumb.png
 
 title: NVIDIA Jetson Module

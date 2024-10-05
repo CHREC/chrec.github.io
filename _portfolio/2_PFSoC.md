@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: PolarFire SoC Module
-  subtitle: Next-Generation Heterogeneous Computing
+  subtitle: Next-Gen Heterogeneous Computing
   thumbnail: assets/img/portfolio/rchd-pf_thumb.png
 
 #what displays when the item is clicked:

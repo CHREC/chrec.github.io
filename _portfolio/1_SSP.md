@@ -1,7 +1,7 @@
 ---
 caption:
-  title: SSP
-  subtitle: Next-Gen Hybrid Space Computer
+  title: SHREC Space Processor
+  subtitle: Flight-Proven Hybrid Space Computing
   thumbnail: assets/img/portfolio/ssp_thumb.png
 
 title: SHREC Space Processor

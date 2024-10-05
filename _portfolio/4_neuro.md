@@ -1,15 +1,15 @@
 ---
 caption:
-  title: Prophesee Sysley Neuromorphic Sensor
+  title: Prophesee HD Neuromorphic Sensor
   subtitle: Novel Event-Based Vision Sensor
   thumbnail: assets/img/portfolio/neurosensor_thumb.png
 
-title: Prophesee Sysley Event-Based Sensor
+title: Prophesee HD Neuromorphic Sensor
 subtitle: Neuromorphic, Event-Based Vision
 image: assets/img/portfolio/neurosensor.png
-alt: Keep Exploring
+alt: Prophesee Neuromorphic Sensor
 ---
 
-Designed and built by Prophesee, based in Paris, France, the neuromorphic sensor is an asynchronous event-based vision sensor modelled after the human eye. The sensor's biomimetic model ignores any redundant, static background information in its field of view, passing only moving events measured by luminosity changes. This method of capture provides a very high dynamic range (>120 dB) and a low temporal resolution (on the order of microseconds).
+Neuromorphic sensors are asynchronous event-based sensors modeled after the human eye. The sensor's biomimetic model ignores any redundant, static background information in its field of view, passing only moving events measured by luminosity changes. This method of capture provides a very high dynamic range (>120 dB) and a low temporal resolution-on the order of microseconds. Designed and built through a collaboration between Prophesee and Sony, the IMX636 neuromorphic sensor onboard VANTAGE supports high-definition data capture.
 
 _For more information, visit the [Prophesee website](https://www.prophesee.ai/)._

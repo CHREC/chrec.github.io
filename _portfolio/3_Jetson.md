@@ -1,7 +1,7 @@
 ---
 caption:
   title: NVIDIA Jetson Module
-  subtitle: Massively-Parallel Computation
+  subtitle: Massively-Parallel Acceleration
   thumbnail: assets/img/portfolio/nvidia_thumb.png
 
 title: NVIDIA Jetson Module

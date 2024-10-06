@@ -1,6 +1,6 @@
 ---
 caption:
-  title: Catadioptric Lens
+  title: Kenko Tokina Catadioptric Lens
   subtitle: Low-GRD Data Capture
   thumbnail: assets/img/portfolio/cata_thumb.png
 

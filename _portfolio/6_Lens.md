@@ -4,7 +4,7 @@ caption:
   subtitle: Low-GRD Data Capture
   thumbnail: assets/img/portfolio/cata_thumb.png
 
-title: Catadioptric Lens
+title: Kenko Tokina Catadioptric Lenses
 subtitle: Kenko Tokina SZ Catadioptric Lenses
 image: assets/img/portfolio/cata.png
 alt: Kenko Tokina SZ Catadioptric Lens

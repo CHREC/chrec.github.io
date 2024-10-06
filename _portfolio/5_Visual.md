@@ -4,7 +4,7 @@ caption:
   subtitle: High-Resolution Color Imaging
   thumbnail: assets/img/portfolio/visual_thumb.png
 
-title: Sony Visual Sensor
+title: Sony Industrial Camera
 subtitle: Sony XCL-SG1240C Industrial Camera
 image: assets/img/portfolio/visual.png
 alt: Sony XCL-SG1240C Industrial Camera

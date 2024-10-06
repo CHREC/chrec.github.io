@@ -10,6 +10,6 @@ image: assets/img/portfolio/neurosensor.png
 alt: Prophesee Neuromorphic Sensor
 ---
 
-Neuromorphic sensors are asynchronous event-based sensors modeled after the human eye. The sensor's biomimetic model ignores any redundant, static background information in its field of view, passing only moving events measured by luminosity changes. This method of capture provides a very high dynamic range (>120 dB) and a low temporal resolution-on the order of microseconds. Designed and built through a collaboration between Prophesee and Sony, the IMX636 neuromorphic sensor onboard VANTAGE supports high-definition data capture.
+Neuromorphic sensors are asynchronous event-based sensors modeled after the human eye. The sensor's biomimetic model ignores any redundant, static background information in its field of view, passing only moving events measured by luminosity changes. This method of capture provides a very high dynamic range (>120 dB) and a low temporal resolution-on the order of microseconds. Designed and built through a collaboration between Prophesee and Sony, the IMX636 neuromorphic sensor onboard VANTAGE supports high-definition data capture. The VANTAGE neuromorphic sensor is paired with high-magnification catadioptric lenses to enable low ground-resolved-distance (GRD) event data capture.
 
 _For more information, visit the [Prophesee website](https://www.prophesee.ai/)._

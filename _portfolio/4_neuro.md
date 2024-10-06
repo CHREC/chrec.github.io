@@ -1,10 +1,10 @@
 ---
 caption:
-  title: Prophesee HD Neuro Sensor
+  title: Prophesee Neuro Sensor
   subtitle: Novel Event-Based Vision Sensing
   thumbnail: assets/img/portfolio/neurosensor_thumb.png
 
-title: Prophesee HD Neuromorphic Sensor
+title: Prophesee Neuromorphic Sensor
 subtitle: Neuromorphic, Event-Based Vision
 image: assets/img/portfolio/neurosensor.png
 alt: Prophesee Neuromorphic Sensor

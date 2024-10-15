@@ -85,10 +85,14 @@ en: &DEFAULT_EN
         title_show: 1
       - title: "NRL"
         # desc: "This is the third"
+        logo: assets/img/partners/nrl.png
         link: https://www.nrl.navy.mil
+        title_show: 2
       - title: "Texas Instruments"
         # desc: "This is the fourth"
+        logo: assets/img/partners/ti.png
         link: https://www.ti.com
+        title_show: 3
 
   contact:
     title: "Contact Us"

@@ -50,35 +50,45 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "First"
-        year: "2023-2024"
-        desc: "This is a description"
+      - title: "Initial Proposal"
+        year: "2023"
+        desc: "The VANTAGE mission is proposed to government agencies and the Space Test Program (STP)"
         image: assets/img/timeline/original_design.png
         alt:
-      - title: "Second"
-        year: "2024-Present"
-        desc: "This is another description"
+      - title: "Flight Manifest"
+        year: "October 2024"
+        desc: "VANTAGE is manifested for flight on the STP-H12 pallet"
         image: assets/img/timeline/pdr_design.png
         alt:
+      - title: "STP-H12 Kickoff"
+        year: "Fall 2024"
+        desc: "STP formally starts the H12 development cycle"
         # you can enforce the alignment
         # align: right
-    end: "More VANTAGE updates coming soon!"
+    end: "More Updates Coming Soon!"
 
   services:
-    title: "Main Partners"
+    title: "Key Partners"
     text: "NSF SHREC and the VANTAGE payload are funded by industry and agency members and by the National Science Foundation
           IUCRC Program under Grant No. CNS-1738783. We would like to specifically thank the following companies and agencies for their support:"
     section: services
     list:
-      - title: "First"
-        desc: "This is the first"
+      - title: "AFRL"
+        # desc: "Description"
         logo: assets/img/partners/afrl.png
-        link: https://www.google.com
+        link: https://www.afrl.af.mil/
         title_show: 0
-      - title: "Second"
-        desc: "This is the second"
-        link: https://www.google.com
+      - title: "BAE Systems"
+        # desc: "This is the second"
+        logo: assets/img/partners/bae.png
+        link: https://www.baesystems.com
         title_show: 1
+      - title: "NRL"
+        # desc: "This is the third"
+        link: https://www.nrl.navy.mil
+      - title: "Texas Instruments"
+        # desc: "This is the fourth"
+        link: https://www.ti.com
 
   contact:
     title: "Contact Us"

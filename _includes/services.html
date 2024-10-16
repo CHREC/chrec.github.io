@@ -16,11 +16,7 @@
         <div class="col-md-4">
           <div class="service-logo-container">
             <a href="{{ service.link }}">
-              <!--{% if service.title_show==0 %}-->
               <img class="img-fluid service-logo" src="{{ service.logo }}" alt="">
-              <!--{% else %}-->
-                <!--<h2 class="service-heading">{{ service.title | markdownify }}</h2>-->
-              <!--{% endif %}-->
             </a>
           </div>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}

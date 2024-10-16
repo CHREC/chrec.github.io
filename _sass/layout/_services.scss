@@ -4,11 +4,15 @@
 }
 
 .service-logo-container {
-  height: 400px;
+  //height: 100px;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 300px;
 }
 
 .service-logo {
-  max-height: 400px;
+  max-height: 300px;
   max-width: 60%;
   margin: 15px 0;
 }

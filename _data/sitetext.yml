@@ -74,22 +74,22 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "AFRL"
-        desc: "Description"
+        # desc: "Description"
         logo: assets/img/partners/afrl.png
         link: https://www.afrl.af.mil/
         title_show: 0
       - title: "BAE Systems"
-        desc: "This is the second"
+        # desc: "This is the second"
         logo: assets/img/partners/bae.png
         link: https://www.baesystems.com
         title_show: 1
       - title: "NRL"
-        desc: "This is the third"
+        # desc: "This is the third"
         logo: assets/img/partners/nrl.png
         link: https://www.nrl.navy.mil
         title_show: 2
       - title: "Texas Instruments"
-        desc: "This is the fourth"
+        # desc: "This is the fourth"
         logo: assets/img/partners/ti.png
         link: https://www.ti.com
         title_show: 3

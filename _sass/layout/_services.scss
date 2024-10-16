@@ -5,6 +5,9 @@
 
 .service-logo-container {
   //height: 100px;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
   height: auto;
 }
 

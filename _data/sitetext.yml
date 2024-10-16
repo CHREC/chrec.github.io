@@ -83,16 +83,31 @@ en: &DEFAULT_EN
         logo: assets/img/partners/bae.png
         link: https://www.baesystems.com
         title_show: 1
+      - title: "Johns Hopkins University Applied Physics Lab"
+        # desc: ""
+        logo: assets/img/partners/apl.png
+        link: https://www.jhuapl.edu/
+        title_show: 2
+      - title: "NASA"
+        # desc: ""
+        logo: assets/img/partners/nasa.png
+        link: https://www.nasa.gov/
+        title_show: 3
       - title: "NRL"
         # desc: "This is the third"
         logo: assets/img/partners/nrl.png
         link: https://www.nrl.navy.mil
-        title_show: 2
+        title_show: 4
+      - title: "Space Test Program"
+        # desc: ""
+        logo: assets/img/partners/stp.png
+        link: https://www.ssc.spaceforce.mil/Connect-With-Us/Space-Systems-Command-Front-Door/Space-Test-Program
+        title_show: 5
       - title: "Texas Instruments"
         # desc: "This is the fourth"
         logo: assets/img/partners/ti.png
         link: https://www.ti.com
-        title_show: 3
+        title_show: 6
 
   contact:
     title: "Contact Us"

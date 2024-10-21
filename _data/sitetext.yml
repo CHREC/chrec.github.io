@@ -53,7 +53,7 @@ en: &DEFAULT_EN
       - title: "Initial Proposal"
         year: "2023"
         desc: "The VANTAGE mission is proposed to government agencies and the Space Test Program (STP)"
-        image: assets/img/header.png
+        image: assets/img/timeline/header.png
         alt:
       - title: "Flight Manifest"
         year: "October 2024"
@@ -63,10 +63,10 @@ en: &DEFAULT_EN
       - title: "STP-H12 Kickoff"
         year: "Fall 2024"
         desc: "The STP-H12 development cycle formally begins"
-        image: assets/img/timeline/coming_soon.png
+        image: assets/img/timeline/checkered_flag.png
         # you can enforce the alignment
         # align: right
-    end: "More Updates Coming Soon!"
+    end: "More <br> Coming <br> Soon!"
 
   services:
     title: "Key Partners"

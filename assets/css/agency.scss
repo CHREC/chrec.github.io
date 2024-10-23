@@ -23,6 +23,7 @@ $iss-image: "{{ site.data.style.iss-image }}";
 @import "components/buttons.scss";
 @import "components/navbar.scss";
 @import "components/client-scroll.scss";
+@import "components/pdf-preview";
 
 // Layout
 @import "layout/masthead.scss";

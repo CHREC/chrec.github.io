@@ -1,0 +1,101 @@
+.pdf-preview-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.pdf-preview-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pdf-preview-title-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.pdf-preview-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+.pdf-preview-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #ffffff;
+}
+
+.pdf-preview-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.pdf-preview-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.pdf-preview-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.pdf-preview-button-primary {
+  background-color: #1D88DE;
+}
+
+.pdf-preview-button-primary:hover {
+  background-color: #1a75c2;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pdf-preview-button-secondary {
+  background-color: #495057;
+}
+
+.pdf-preview-button-secondary:hover {
+  background-color: #343a40;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pdf-preview-button-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.pdf-viewer-container {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #343a40;
+}
+
+.pdf-viewer {
+  width: 100%;
+  height: 800px;
+  border: none;
+  background-color: white;
+}
+
+.pdf-fallback {
+  text-align: center;
+  padding: 2rem;
+  color: #ffffff;
+}

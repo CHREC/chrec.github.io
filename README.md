@@ -1,4 +1,4 @@
-# NSF SHREC VANTAGE Website
+# SHREC VANTAGE Website
 <!--
 [![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency?label=gem%20downloads)](https://rubygems.org/gems/jekyll-agency)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue)](/LICENSE.txt)

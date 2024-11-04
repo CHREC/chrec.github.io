@@ -16,12 +16,12 @@
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : VANTAGE - NSF SHREC
+title      : VANTAGE - SHREC
 email      : mjc153@pitt.edu #this is also the email contact forms will go to
 description: "VANTAGE is a proposed International Space Station research payload being developed by the NSF Center for Space, High-performance, and Resilient Computing (SHREC)"
-author     : NSF SHREC
+author     : SHREC
 logo:     #optional, defaults to site title
-  path: assets\img\vantage_logo.svg
+  path: assets\img\vantage_logo_new.png
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml

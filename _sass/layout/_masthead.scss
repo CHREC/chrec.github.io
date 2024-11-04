@@ -6,16 +6,45 @@
 header.masthead {
   text-align: center;
   background-color: $gray-900;
-  background-image: url("#{$header-image}");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: contain;
+  padding: 1rem 0;
+  //background-image: url("#{$header-image}");
+  //background-repeat: no-repeat;
+  //background-attachment: scroll;
+  //background-position: center center;
+  //background-size: contain;
   //position: relative;
   //top: 100px;
+
+  .header-image {
+    display: block;
+    width: 100%;
+    max-width: 600px;  // Adjust this value as needed
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    object-fit: contain;
+  }
+
+   // First header
+   .header-image:nth-child(1) img {
+    max-width: 300px;  // Adjust this value as needed
+  }
+
+  // Second header 
+  .header-image:nth-child(2) img {
+    max-width: 100px;  // Adjust this value as needed
+  }
+
+  // For the last header-image, add some space before the "ABOUT VANTAGE" text
+  .header-image:last-child {
+    margin-bottom: 0px;  // Space before the text
+  }
+
+  
+
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     .intro-lead-in {
       font-size: 22px;
       font-style: bold;
@@ -34,9 +63,18 @@ header.masthead {
 }
 @media (min-width: 768px) {
   header.masthead {
+    // First header - desktop
+    .header-image:nth-child(1) img {
+      max-width: 450px;  // Adjust for desktop
+    }
+
+    // Second header - desktop
+    .header-image:nth-child(2) img {
+      max-width: 150px;  // Adjust for desktop
+    }
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 0px;
+      padding-bottom: 0px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;

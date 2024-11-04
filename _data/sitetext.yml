@@ -11,26 +11,36 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    #title: STP-H7-CASPR
+    #title: "STP-H12-VANTAGE"
     #text:
     #button: Tell Me More
     #buttonlink: "#services"
+    #logo: assets/img/shrec_logo_dark.png
+
+  shrec:
+    section: shrec
+    img-max-height: 110px
+    list:
+      - title: "NSF SHREC"
+        logo: assets/img/shrec_logo_dark_bg.png
+      - title: "Pitt Space"
+        logo: assets/img/pitt_logo_dark_bg.png
 
   about:
-    title: "About VANTAGE"
+    title: "STP-H12-VANTAGE"
     body: "Visual And Neuromorphic Tracking And Geosensing Experiment (VANTAGE) is a next-generation 
           payload proposed for flight to the International Space Station on the Space Test Program - Houston 12 (STP-H12) pallet.
           VANTAGE is currently in-development and will be designed, built, and operated by the students and faculty of the 
           NSF Center for Space, High-performance, and Resilient Computing (SHREC) at the University of Pittsburgh. Learn more about this exciting research payload below!"
     section: about
     img-max-height: 100px
-    list:
-      - title: "NSF SHREC"
-        url: https://nsf-shrec.org
-        logo: assets/img/shrec_logo_dark_bg.png
-      - title: "University of Pittsburgh"
-        url: https://www.pitt.edu
-        logo: assets/img/pitt_logo_dark_bg.png
+    #list:
+    #  - title: "NSF SHREC"
+    #    url: https://nsf-shrec.org
+    #    logo: assets/img/shrec_logo_dark_bg.png
+    #  - title: "University of Pittsburgh"
+    #    url: https://www.pitt.edu
+    #    logo: assets/img/pitt_logo_dark_bg.png
 
   stp:
     section: stp
@@ -70,7 +80,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Key Partners"
-    text: "NSF SHREC and the VANTAGE payload are funded by industry and agency members and by the National Science Foundation
+    text: "SHREC and the VANTAGE payload are funded by industry and agency members and by the National Science Foundation
           IUCRC Program under Grant No. CNS-1738783. We would like to specifically thank the following companies and agencies for their support:"
     section: services
     list:
@@ -112,7 +122,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Interested in learning more about NSF SHREC and VANTAGE? Want to collaborate? Reach out below!"
+    text: "Interested in learning more about SHREC and VANTAGE? Want to collaborate? Reach out below!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -173,8 +183,8 @@ en: &DEFAULT_EN
       - title: "NSF SHREC"
         url: https://nsf-shrec.org
         logo: assets/img/shrec_logo_dark_bg.png
-      - title: "University of Pittsburgh"
-        url: https://www.pitt.edu
+      - title: "Pitt Space"
+        url: https://space.pitt.edu
         logo: assets/img/pitt_logo_dark_bg.png
 
   footer:

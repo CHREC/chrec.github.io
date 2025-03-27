@@ -73,7 +73,7 @@ en: &DEFAULT_EN
       - title: "Chassis Updates"
         year: "November 2024"
         desc: "The VANTAGE chassis is updated to accommodate the assigned location of the STP-H12 pallet"
-        image: assets/img/timeline/header.png
+        image: assets/img/timeline/chassis.png
         alt:
       - title: "STP-H12 Kickoff"
         year: "April 2025"

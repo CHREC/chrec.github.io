@@ -70,8 +70,13 @@ en: &DEFAULT_EN
         desc: "VANTAGE is manifested for flight on the STP-H12 pallet"
         image: assets/img/timeline/earth-space.jpg
         alt:
+      - title: "Chassis Updates"
+        year: "November 2024"
+        desc: "The VANTAGE chassis is updated to accommodate the assigned location of the STP-H12 pallet"
+        image: assets/img/timeline/header.png
+        alt:
       - title: "STP-H12 Kickoff"
-        year: "Fall 2024"
+        year: "April 2025"
         desc: "The STP-H12 development cycle formally begins"
         image: assets/img/timeline/checkered_flag.png
         # you can enforce the alignment
@@ -119,6 +124,53 @@ en: &DEFAULT_EN
         logo: assets/img/partners/ti.png
         link: https://www.ti.com
         title_show: 6
+      - title: "Department of Defense"
+        # desc: ""
+        logo: assets/img/partners/dod.png
+        link: https://www.defense.gov/
+        title_show: 7
+      - title: "Sandia National Labs"
+        # desc: "This is the fifth"
+        logo: assets/img/partners/sandia.png
+        link: https://www.sandia.gov
+        title_show: 8
+      - title: "Kenko Tokina"
+        # desc: ""
+        logo: assets/img/partners/tokina.png
+        link: https://www.kenkotokinausa.com
+        title_show: 9
+      - title: "University of Pittsburgh"
+        # desc: "This is the sixth"
+        logo: assets/img/partners/pitt.png
+        link: https://www.pitt.edu
+        title_show: 10
+      - title: "3D Plus"
+        # desc: "This is the seventh"
+        logo: assets/img/partners/3dplus.png
+        link: https://www.3d-plus.com
+        title_show: 11
+      - title: "Brigham Young University"
+        # desc: ""
+        logo: assets/img/partners/byu.png
+        link: https://www.byu.edu
+        title_show: 12
+      - title: "AMD"
+        # desc: ""
+        logo: assets/img/partners/amd.png
+        link: https://www.amd.com
+        title_show: 13
+      - title: "Microchip"
+        # desc: ""
+        logo: assets/img/partners/microchip.png
+        link: https://www.microchip.com
+        title_show: 14
+      - title: "Lockheed Martin"
+        # desc: ""
+        logo: assets/img/partners/lockheed.png
+        link: https://www.lockheedmartin.com
+        title_show: 15
+
+
 
   contact:
     title: "Contact Us"

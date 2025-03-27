@@ -169,6 +169,11 @@ en: &DEFAULT_EN
         logo: assets/img/partners/lockheed.png
         link: https://www.lockheedmartin.com
         title_show: 15
+      - title: "Exascend"
+        # desc: ""
+        logo: assets/img/partners/exascend.png
+        link: https://www.exascend.com
+        title_show: 16
 
 
 

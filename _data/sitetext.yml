@@ -94,14 +94,14 @@ en: &DEFAULT_EN
       - title: "STP-H12 FCA"
         year: "July 2026"
         desc: "Perform functional configuration audit to STP-H12 team"
-        image: assets/img/timeline/approved.jpg
+        image: assets/img/timeline/approved.png
       - title: "STP-H12 On-Dock"
         year: "August 2026"
         desc: "Deliver VANTAGE to NASA JSC in Houston"
         image: assets/img/timeline/deliver.png
         # you can enforce the alignment
         # align: right
-    end: "Launch in 2027!"
+    end: "Launch<br>in 2027!"
 
   services:
     title: "Key Partners"

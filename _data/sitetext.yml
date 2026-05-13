@@ -101,7 +101,7 @@ en: &DEFAULT_EN
         image: assets/img/timeline/deliver.png
         # you can enforce the alignment
         # align: right
-    end: "<br>Launch<br>in 2027!"
+    end: "Launch<br>in 2027!"
 
   services:
     title: "Key Partners"

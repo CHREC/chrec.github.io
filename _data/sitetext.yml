@@ -79,9 +79,29 @@ en: &DEFAULT_EN
         year: "April 2025"
         desc: "The STP-H12 development cycle formally begins"
         image: assets/img/timeline/checkered_flag.png
+      - title: "STP-H12 PDR"
+        year: "September 2025"
+        desc: "Presented preliminary design review to STP-H12 team"
+        image: assets/img/timeline/pdr_vantage.png
+      - title: "STP-H12 CDR"
+        year: "April 2026"
+        desc: "Presented critical design review to STP-H12 team"
+        image: assets/img/timeline/cdr_vantage.png
+      - title: "Final Chassis Design"
+        year: "May 2026"
+        desc: "The VANTAGE chassis is finalized to address comments from CDR"
+        image: assets/img/timeline/final_vantage.png
+      - title: "STP-H12 FCA"
+        year: "July 2026"
+        desc: "Perform functional configuration audit to STP-H12 team"
+        image: assets/img/timeline/fca_approval.png
+      - title: "STP-H12 On-Dock"
+        year: "August 2026"
+        desc: "Deliver VANTAGE to NASA JSC in Houston"
+        image: assets/img/timeline/on_dock.jpg
         # you can enforce the alignment
         # align: right
-    end: "More <br> Coming <br> Soon!"
+    end: "Launch in 2027!"
 
   services:
     title: "Key Partners"

@@ -5,7 +5,7 @@ highlight: "#1D88DE"
 #black: "#000"
 
 #Image Customization
-header-image-1: "/assets/img/header.png"
+header-image-1: "/assets/img/header_vantage.png"
 header-image-2: "/assets/img/shrec_logo_dark2.png"
 contact-image: "/assets/img/contact.png"
 iss-image: "/assets/img/iss.jpg"
